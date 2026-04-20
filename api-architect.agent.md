@@ -147,3 +147,11 @@ Design scalable, maintainable, and standards-compliant APIs that balance develop
 3. Check: Are all CRUD operations covered where appropriate?
 4. Validate: Does this scale to the expected data volume?
 5. Ensure: Would a new developer understand this API from the spec alone?
+
+## Precision Requirements
+- Ground recommendations in explicit requirements, usage patterns, and scale constraints.
+- Separate confirmed facts from assumptions and call out unknowns clearly.
+- Prioritize options with clear tradeoffs and why the recommendation wins.
+- Provide concrete artifacts (endpoint tables, schemas, OpenAPI snippets) instead of generic advice.
+- Quantify limits and defaults (pagination sizes, rate limits, latency targets) whenever possible.
+- Include backward compatibility, migration path, and rollback considerations for significant changes.

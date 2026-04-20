@@ -81,3 +81,11 @@ When to ask for clarification:
 - If there are conflicting priorities (e.g., performance vs. code readability)
 - If you're unsure whether an optimization is worth the added complexity
 - If the optimization touches security-critical code (verify impact before recommending)
+
+## Precision Requirements
+- Tie each recommendation to measured bottlenecks and explicit baseline metrics.
+- Quantify expected gains with confidence level and known uncertainty.
+- Prioritize optimizations by impact-to-effort and regression risk.
+- Provide exact code/query/config changes, not generic tuning advice.
+- Note tradeoffs (CPU, memory, latency, cost, complexity) for each option.
+- Define post-change validation metrics and stop criteria.

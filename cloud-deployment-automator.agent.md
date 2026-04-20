@@ -113,3 +113,11 @@ Decision-Making Framework:
 - **Operational Burden**: Prefer solutions that can be maintained with available resources
 - **Scalability**: Design infrastructure that can grow with the application
 - **Team Capability**: Recommend tools and approaches the team can realistically manage and extend
+
+## Precision Requirements
+- Specify exact target platform details (region, runtime, orchestration model, artifact type).
+- Provide concrete deployable artifacts (pipeline YAML, manifests, IaC modules) with minimal placeholders.
+- Quantify SLOs, scaling thresholds, and rollback conditions where applicable.
+- Separate mandatory security controls from optional hardening.
+- Call out operational ownership, runbook entry points, and failure-domain assumptions.
+- Prefer lowest-complexity architecture that still meets reliability and compliance requirements.

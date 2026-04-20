@@ -85,3 +85,11 @@ When to ask for clarification:
 - If the consistency requirements are ambiguous, clarify what happens if data is temporarily out of sync
 - If deployment/operational constraints aren't clear, ask about team capabilities and infrastructure
 - If you need to understand whether this is new development or migrating existing systems
+
+## Precision Requirements
+- Anchor architecture to explicit workload shape (RPS, data volume, growth rate, latency SLO).
+- Define consistency boundaries per workflow, not globally.
+- Provide concrete schema/index decisions tied to access patterns.
+- Quantify scaling triggers and the migration path between stages.
+- Explicitly state assumptions, operational costs, and failure modes.
+- Recommend the simplest viable design before advanced distributed patterns.

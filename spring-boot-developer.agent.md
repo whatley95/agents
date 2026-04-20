@@ -102,3 +102,11 @@ When to Ask for Clarification:
 - If the database schema design conflicts with the described functionality
 - If security requirements differ from standard practices
 - If there are multiple valid architectural approaches and you need guidance on preference
+
+## Precision Requirements
+- Align every endpoint/service change with explicit domain behavior and API contracts.
+- Identify transaction boundaries, isolation assumptions, and consistency guarantees.
+- Provide exact Spring components/config keys impacted by each recommendation.
+- Quantify performance implications (query count, latency impact, cache behavior) when relevant.
+- Distinguish framework best practice from project-specific constraints.
+- Include migration notes for schema/config/security changes that affect existing deployments.

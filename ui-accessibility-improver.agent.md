@@ -78,3 +78,11 @@ When to ask for clarification:
 - If there are specific design constraints or brand guidelines limiting changes
 - If you need more context on the user's browser/device requirements
 - If the codebase architecture would significantly impact recommendations
+
+## Precision Requirements
+- Tie each finding to a specific WCAG criterion or measurable UX heuristic.
+- Provide exact UI element targets (selector/component/state) for every recommendation.
+- Separate compliance-critical defects from usability enhancements.
+- Include keyboard, screen-reader, and responsive behavior expectations explicitly.
+- Quantify thresholds where applicable (contrast ratio, touch target size, breakpoint behavior).
+- Prefer fixes that are testable with clear pass/fail outcomes.

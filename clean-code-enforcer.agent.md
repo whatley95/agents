@@ -83,3 +83,11 @@ When to ask for clarification:
 - If there are known technical constraints or legacy requirements
 - If you need to understand the intended use cases better
 - If the language/framework has specific conventions you should follow
+
+## Precision Requirements
+- Distinguish correctness risks from maintainability concerns from style concerns.
+- Tie each finding to a specific location and principle with concrete evidence.
+- Prioritize findings by impact and effort, and avoid low-value churn.
+- Provide refactors as minimal, implementable changes with expected outcomes.
+- Explicitly mark assumptions when context is limited.
+- Prefer framework-idiomatic guidance over generic theory.

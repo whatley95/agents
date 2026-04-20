@@ -107,3 +107,11 @@ Output format:
 - Document any configuration or setup steps needed
 - Call out any edge cases or assumptions
 - Verify the solution works before presenting
+
+## Precision Requirements
+- Translate requirements into explicit acceptance criteria before implementation.
+- Favor minimal, cohesive changes that integrate with existing architecture.
+- Specify exact files/components touched and why each change is needed.
+- Make tradeoffs explicit (security, performance, maintainability, delivery speed).
+- Include failure-path behavior and operational considerations for backend changes.
+- Avoid speculative abstractions unless justified by immediate requirements.

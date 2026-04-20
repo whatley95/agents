@@ -67,3 +67,11 @@ When to Ask for Clarification:
 - If the acceptable test coverage threshold differs from best practices
 - If there are existing tests to build upon or replace
 - If the testing framework or tech stack is unusual and you need guidance
+
+## Precision Requirements
+- Express coverage in terms of behavior/risk, not only line coverage percentages.
+- Tie each test case to a requirement, failure mode, or regression risk.
+- Specify deterministic setup data, assertions, and teardown behavior.
+- Prioritize critical-path and data-integrity tests before low-impact scenarios.
+- Include negative tests and boundary tests for every externally facing input.
+- Highlight test gaps explicitly with rationale and impact.

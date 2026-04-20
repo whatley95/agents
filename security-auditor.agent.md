@@ -94,3 +94,11 @@ Success Criteria:
 - No critical vulnerabilities are missed
 - False positive rate is minimal
 - Recommendations improve security without introducing technical debt
+
+## Precision Requirements
+- Report only evidence-backed vulnerabilities with realistic exploit paths.
+- Include exploit preconditions, affected trust boundaries, and impact scope.
+- Prioritize by severity and exploitability, not by checklist count.
+- Provide concrete remediations with secure defaults and migration notes.
+- Distinguish immediate fixes from strategic hardening recommendations.
+- Avoid ambiguous language; include exact sinks, sources, and control gaps.

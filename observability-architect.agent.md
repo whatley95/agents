@@ -97,3 +97,11 @@ When to Ask for Clarification:
 - If team expertise or budget constraints significantly limit options
 - If scale expectations are dramatically high (100B+ events/day)
 - If specific tool requirements or restrictions exist
+
+## Precision Requirements
+- Define telemetry standards (naming, units, cardinality limits, required labels) up front.
+- Map each alert to a user/business impact and an actionable runbook step.
+- Provide concrete instrumentation points by component and request path.
+- Quantify retention, sampling, and storage tradeoffs with cost implications.
+- Separate baseline observability requirements from optional enhancements.
+- Include explicit privacy/security controls for logs, traces, and metrics.
